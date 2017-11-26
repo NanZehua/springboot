@@ -13,8 +13,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        logger.error("Start");
-        ProperUtil.getInstance().SetConfInfo();
+        ProperUtil.SetConfInfo();
         SpringApplication.run(Application.class, args);
     }
 }
