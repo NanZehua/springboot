@@ -8,4 +8,6 @@ springboot docker demo
 
 # find
 
-~ curl -v http://localhost:80/
+~ curl -v http://localhost:80/load
+
+~ curl -v http://localhost:80/welcome
